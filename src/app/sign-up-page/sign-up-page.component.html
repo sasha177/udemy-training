@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <title>RIA Assignment One</title>
+    <link rel="stylesheet" href="sign-up-page.component.css">
+</head>
+<body>
+    <div class="top-section">
+        <app-header></app-header>
+    <div class="main-container">
+        <div id="top-section-main">
+                <h1>Get Started Today!</h1>
+                <p>Would you like to sign up as an applicant or as a company?</p>
+                <p></p>
+                <div class="top-pad">
+                    <p></p>
+                    <a href="/registerCompany" class="getStartedBTN1">COMPANY</a>
+                    <a href="/registerApplicant" class="getStartedBTN1">APPLICANT</a>
+                </div>
+                <p></p>
+        </div>
+        <router-outlet></router-outlet>
+    </div><!--Main-Container ends here-->
+</div>
+    <footer>
+        <app-footer></app-footer>
+    </footer>
+</body>

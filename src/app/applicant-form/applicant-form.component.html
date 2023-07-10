@@ -1,0 +1,44 @@
+
+
+<div class="main-form">
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+            <h1>Fill out this form to register as a job applicant!</h1>
+            <div class="applicantForm">
+                <form #postForm="ngForm" (ngSubmit)="onCreateApplicant(postForm.value)">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="form-control" ngModel name="name" required/>
+                    <p></p>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" class="form-control" ngModel name="title" required/>
+                    <p></p>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" class="form-control" ngModel name="username" required/>
+                    <p></p>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="text" id="dob" class="form-control" ngModel name="dob"/>
+                    <p></p>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" class="form-control" ngModel name="location"/>
+                    <p></p>
+                    <label for="personalInfo">Personal Information:</label>
+                    <input type="text" id="personalInfo" class="form-control" ngModel name="personalInfo" rows="3"/>
+                    <p></p>
+                    <label for="video">Video:</label>
+                    <input type="text" id="video" class="form-control" ngModel name="video"/>
+                    <p></p>
+                    <label for="jobCategory">Job Category:</label>
+                    <input type="text" id="jobCategory" class="form-control" ngModel name="jobCategory"/>
+                    <p></p>
+                    <label for="skills">Skills:</label>
+                    <input type="text" id="skills" class="form-control" ngModel name="skills" rows="3"/>
+                    <p></p>
+                    <label for="number">Number:</label>
+                    <input type="text" id="number" class="form-control" ngModel name="number"/>
+                    <hr>
+                    <button type="submit" class="getStartedBTN1" value="Submit">Submit</button>
+                </form>
+            </div>
+</div>

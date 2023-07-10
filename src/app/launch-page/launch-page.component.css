@@ -1,0 +1,296 @@
+body {
+    margin:0;
+}
+h1{
+    color:black;
+    font-weight:600;
+    line-height: 1.5em;
+}
+
+.top-section{
+    background-image: url("download40.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color:black;
+    font-size:16px;
+    line-height:24px;
+    font-family:"Calibri", sans-serif;
+}
+.col-3 {
+    width:32%;
+    float: left;
+}
+
+.main-container{
+    padding-top:80px;
+    height: 500px;
+}
+
+
+.logo {
+    padding-top: 30px;
+}
+
+.getStartedBTN1 {
+    background-color: #7393B3;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    text-decoration:none;
+    color:#ffffff;
+    padding: 5px 5px;
+    margin:20px 5px;
+    font-size:15px;
+}
+
+#top-section-main{
+    height:740px;
+    text-align:center;
+    width:75%;
+    margin:auto;
+    padding-top:100px;
+    border:none;
+}
+
+#top-section-content{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    
+}
+
+#top-section-content h1 {
+    color:white;
+    font-size:4em;
+    font-weight:300;
+    text-align:center;
+    margin-top:0;
+    padding-top:100px;
+    margin-bottom:15px;
+}
+
+#top-section-content p {
+    color:white;
+    font-size:1.3em;
+    font-weight:400;
+    text-align:center;
+}
+
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    height:15%;
+    padding:50px 5px 5px 5px;
+}
+
+.main-form h6{
+    font-family: sans-serif;
+    font-size:0.9em;
+    font-weight:100;
+    color:white;
+    text-align:center;
+}
+
+.main-form input{
+    margin: 0;
+    width:30%;
+    height:40px;
+    font-family:sans-serif;
+    font-size:15px;
+    padding-left:15px;
+    font-weight:100;
+    border:none;
+}
+
+.main-form button{
+    width:30%;
+    height:40px;
+    font-family:sans-serif;
+    padding-left:15px;
+    font-size:15px;
+    border:none;
+    font-weight:100;
+    margin:0;
+    background-color:#B6D0E2;
+    color:white;
+}
+
+#feature-section{
+    padding-top:100px;
+    background-color:white;
+}
+
+.feature-section-title{
+    width:70%;
+    text-align:center;
+    font-weight:200;
+    line-height: 1.5em;
+    margin:auto;
+}
+
+.feature-content{
+    margin:auto;
+    width:80%;
+    text-align:center;
+    padding-top:100px;
+}
+.feature-content .col-3 img{
+    width:100%;
+    
+}
+.feature-content .col-3 p{
+    font-size:0.9em;
+    letter-spacing:1px;
+}
+
+.feature-content .col-3 h3{
+    text-align:center;
+}
+
+.feature-content .col-3{
+    padding:10px;
+    width:30%;
+}
+
+.col-2{
+    float:left;
+    width:48%;
+    
+}
+
+.col-2-opposite{
+    float:right;
+    width:48%;
+    
+}
+
+.showcase{
+    width:80%;
+    margin:auto;
+    overflow:auto;
+}
+
+.feature-text{
+    padding-top:300px;
+    padding-left:70px;
+    
+}
+
+.section-title{
+    width:70%;
+    margin:auto;
+    font-weight:150;
+    line-height:1.9em;
+}
+
+.section-left{
+    width:70%;
+    padding:10px;
+    margin:auto;
+}
+
+#showcase1-container{
+    padding-top:60px;
+    background-color:#f6f8fa;
+    width:100%;
+    clear:both;
+}
+
+.showcase1-picture{
+    width:100%;
+}
+
+#showcase2-container{
+    padding-top:60px;
+    background-color:white;
+    width:100%;
+    clear:both;
+}
+
+#call-to-action{
+    background-image:url("/Users/sashamittal/Downloads/Awesome_Landing_Page/Images/darkdesk.png");
+    background-position:50% 50%;
+    padding-bottom:45px;
+}
+
+.action-title{
+    font-size:4em;
+    font-weight:300;
+    color:white;
+    text-align:center;
+    margin-top:0;
+    padding-top:100px;
+}
+
+.col-1{
+    width:80%;
+    margin:auto;
+}
+
+.col-1 p{
+    font-size: 1.6em;
+    font-weight:400;
+    color:white;
+    text-align:center;
+    margin:0;
+    padding-bottom:100px;
+}
+
+.sign-up-btn{
+    background-color:#B6D0E2;
+    color:black;
+    font-size:1em;
+    text-decoration:none;
+    padding:30px 90px 30px 90px;
+}
+
+.sign-up-btn:hover{
+    background-color:black;
+}
+
+.sign-up-form{
+    background-color:#f6f8fa;
+    margin-right:200px;
+    padding:0px 100px 10px 100px;
+}
+
+.sign-up-form h6{
+    color: black;
+    padding-top: 15px;
+    text-align:center;
+    font-size: 0.9em;
+}
+
+.top-margin{
+    margin-top:100px;
+    margin-left:100px;
+}
+
+input{
+    margin:0;
+    width:100%;
+    height:50px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight: 100;
+    border:none;
+    margin-top:15px;
+}
+
+button{
+    width:100%;
+    height:50px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:100;
+    margin:0;
+    background-color:#B6D0E2;
+    color:white;
+    margin-top:15px;
+}
+

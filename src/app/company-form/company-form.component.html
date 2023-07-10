@@ -1,0 +1,36 @@
+
+
+<div class="main-form">
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+            <h1>Fill out this form to register your company!</h1>
+            <div class="applicantForm">
+                <form #postForm="ngForm" (ngSubmit)="onSubmit1(postForm.value)">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" class="form-control" ngModel name="email" required/>
+                    <p></p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="form-control" ngModel name="name" required/>
+                    <p></p>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" class="form-control" ngModel name="address" required/>
+                    <p></p>
+                    <label for="state">State:</label>
+                    <input type="text" id="state" class="form-control" ngModel name="state" required/>
+                    <p></p>
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" class="form-control" ngModel name="country"/>
+                    <p></p>
+                    <label for="number">Number:</label>
+                    <input type="text" id="number" class="form-control" ngModel name="number"/>
+                    <p></p>
+                    <label for="logo">Logo:</label>
+                    <input type="text" id="logo" class="form-control" ngModel name="logo" rows="3"/>
+                    <p></p>
+                    <hr>
+                    <button type="submit" class="getStartedBTN1" value="Submit">Submit</button>
+                </form>
+            </div>
+</div>

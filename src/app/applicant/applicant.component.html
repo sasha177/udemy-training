@@ -1,0 +1,41 @@
+<div class ="container">
+    <div class = "card">
+        <h3 class="text-center"> Applicants List</h3>
+        <div class = "card-body">
+            <table class="table table-striped">
+                <thead>
+                    <th>Id</th>
+                    <th> Name</th>
+                    <th> Title</th>
+                    <th> Username </th>
+                    <th> Date of Birth</th>
+                    <th> Location</th>
+                    <th> Personal Information</th>
+                    <th> Video </th>
+                    <th> Job Category</th>
+                    <th> Skills</th>
+                    <th> Number</th>
+                    <th> Date Created </th>
+                    <th> Date Modified </th>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let applicant of applicants">
+                        <td> {{ applicant.id}}</td>
+                        <td> {{ applicant.name}}</td>
+                        <td> {{ applicant.title}}</td>
+                        <td> {{ applicant.username}}</td>
+                        <td> {{ applicant.dob}}</td>
+                        <td> {{ applicant.location}}</td>
+                        <td> {{ applicant.personalInfo}}</td>
+                        <td> {{ applicant.video}}</td>
+                        <td> {{ applicant.jobCategory}}</td>
+                        <td> {{ applicant.skills}}</td>
+                        <td> {{ applicant.number}}</td>
+                        <td> {{ applicant.dateCreated}}</td>
+                        <td> {{ applicant.dateModified}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
