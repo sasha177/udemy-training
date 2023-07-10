@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+	</head>
+		<meta charset="UTF-8">
+		<title>Applicant Data</title>
+	</head>
+
+	<body>
+	<h1>Fill out this form to register as a job applicant!</h1>
+		<form th:action="@{/saveApplicant/}" th:object="${applicant}" method="post">
+			Name: <input type="text" th:field="*{name}"/>
+			<p></p>
+			Title: <input type="text" th:field="*{title}"/>
+			<p></p>
+			Username: <input type="text" th:field="*{username}"/>
+			<p></p>
+			Date of Birth: <input type="text" th:field="*{dob}"/>
+			<p></p>
+			Location: <input type="text" th:field="*{location}"/>
+			<p></p>
+			Personal Information: <input type="text" th:field="*{personalInfo}"/>
+			<p></p>
+			Video: <input type="text" th:field="*{video}"/>
+			<p></p>
+			Job Category: <input type="text" th:field="*{jobCategory}"/>
+			<p></p>
+			Skills: <input type="text" th:field="*{skills}"/>
+			<p></p>
+			Number: <input type="text" th:field="*{number}"/>
+			<hr>
+			<input type="submit" value="Save" />
+			<input type="reset" value="Reset"/>
+		</form>
+	</body>
+</html>

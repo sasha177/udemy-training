@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+	</head>
+		<meta charset="UTF-8">
+		<title>Company Data</title>
+	</head>
+
+	<body>
+	<h1>Fill out this form to register your company!</h1>
+		<form th:action="@{/saveCompany/}" th:object="${company}" method="post">
+			Email: <input type="text" th:field="*{email}"/>
+			<p></p>
+			Company Name: <input type="text" th:field="*{companyName}"/>
+			<p></p>
+			Brief: <input type="text" th:field="*{brief}"/>
+			<p></p>
+			Address: <input type="text" th:field="*{address}"/>
+			<p></p>
+			State: <input type="text" th:field="*{state}"/>
+			<p></p>
+			Country: <input type="text" th:field="*{country}"/>
+			<p></p>
+			Number: <input type="text" th:field="*{number}"/>
+			<p></p>
+			Logo: <input type="text" th:field="*{logo}"/>
+			<hr>
+			<input type="submit" value="Save" />
+			<input type="reset" value="Reset"/>
+		</form>
+	</body>
+</html>

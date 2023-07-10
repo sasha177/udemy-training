@@ -1,0 +1,28 @@
+<div class="card my-5">
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit()" #jobForm="ngForm">
+      <div class="form-group">
+        <label for="jobId">Job ID</label>
+        <input type="text" [(ngModel)]="job.jobId" 
+          class="form-control" 
+          id="jobId" 
+          name="jobId" 
+          placeholder="Enter the jobId"
+          required #jobId="ngModel">
+      </div>
+      <div [hidden]="!jobId.pristine" class="alert alert-danger">Job ID is required</div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" [(ngModel)]="job.email" 
+          class="form-control" 
+          id="email" 
+          name="email" 
+          placeholder="Enter your email address"
+          required #email="ngModel">
+        <div [hidden]="!email.pristine" class="alert alert-danger">Email is required</div>
+      </div>
+      <button type="submit" [disabled]="!jobForm.form.valid" 
+        class="btn btn-info">Submit</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+footer{
+    clear:both;
+    height:50px;
+    background-position:50% 50%;
+    padding-bottom:0px;
+}
+
+.social-footer{
+    width:33%;
+    float:left;
+    height:150px;
+}
+
+.social-footer:hover{
+    background-color:black;
+    opacity:0.5;
+}
+.center{
+    width:50px;
+    margin:auto;
+    padding-top:20px;
+}

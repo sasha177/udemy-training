@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+	</head>
+		<meta charset="UTF-8">
+		<title>LoginPage</title>
+	</head>
+
+	<body>
+	<h1>Login to your account here!</h1>
+	<form>
+			Username: <input type="text" placeholder="Enter Username" required/>
+			<hr>
+			Password: <input type="password" placeholder="Enter Password" required/>
+			<hr>
+			<input type="submit" value="Save" />
+			<input type="reset" value="Reset"/>
+			<p></p>
+    		<p></p>
+    		<span class="psw">Forgot <a href="#">password?</a></span>
+	</form>
+	
+	<button onclick="location.href='http://localhost:8080/main/'" type="button">
+         Skip to main page</button>
+	
+	
+	<!--form th:action="@{/checkInfo/}" th:object="${applicant}" method="post">
+			Username: <input type="text" th:field="*{inputuser}"/>
+			<hr>
+			Password: <input type="text" th:field="*{inputpassword}"/>
+			<hr>
+			<input type="submit" value="Save" />
+			<input type="reset" value="Reset"/>
+		</form-->     
+         
+	</body>
+</html>

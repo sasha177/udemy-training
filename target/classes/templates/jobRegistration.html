@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+	</head>
+		<meta charset="UTF-8">
+		<title>Job Data</title>
+	</head>
+
+	<body>
+	<h1>Fill out this form to post a job opening!</h1>
+		<form th:action="@{/saveJob/}" th:object="${job}" method="post">
+			Job Id: <input type="text" th:field="*{jobId}"/>
+			<p></p>
+			Email: <input type="text" th:field="*{email}"/>
+			<p></p>
+			Title: <input type="text" th:field="*{title}"/>
+			<p></p>
+			Region: <input type="text" th:field="*{region}"/>
+			<p></p>
+			Location: <input type="text" th:field="*{location}"/>
+			<p></p>
+			Type: <input type="text" th:field="*{jobType}"/>
+			<p></p>
+			Category: <input type="text" th:field="*{jobCategory}"/>
+			<p></p>
+			Description: <input type="text" th:field="*{description}"/>
+			<p></p>
+			Url: <input type="text" th:field="*{jobUrl}"/>
+			<p></p>
+			Company Name: <input type="text" th:field="*{companyName}"/>
+			<p></p>
+			Logo: <input type="text" th:field="*{logo}"/>
+			<p></p>
+			Amount: <input type="text" th:field="*{amount}"/>
+			<p></p>
+			Slogan: <input type="text" th:field="*{slogan}"/>
+			<hr>
+			<input type="submit" value="Save" />
+			<input type="reset" value="Reset"/>
+		</form>
+	</body>
+</html>
